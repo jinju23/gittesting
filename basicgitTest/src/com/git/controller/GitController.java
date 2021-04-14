@@ -1,5 +1,8 @@
 package com.git.controller;
 
+import java.util.Date;
+import java.util.GregorianCalendar;
+
 public class GitController {
 	public void testPrint() {
 		System.out.println("프린트하는 것");
@@ -12,6 +15,10 @@ public class GitController {
 	
 	public String concatTest(String a, String b) {
 		return a+b;
+	}
+	
+	public Date birthDay(int year, int month, int date) {
+		return new Date(new GregorianCalendar(year, month, date).getTimeInMillis());
 	}
 	
 	
