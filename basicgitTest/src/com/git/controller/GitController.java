@@ -17,8 +17,13 @@ public class GitController {
 		return a+b;
 	}
 	
+<<<<<<< HEAD
 	public Date birthDay(int year, int month, int date) {
 		return new Date(new GregorianCalendar(year, month, date).getTimeInMillis());
+=======
+	public double avgVCalc(int a, int b, int c) {
+		return (a+b+c)/3.0;
+>>>>>>> refs/heads/jinju
 	}
 	
 	
